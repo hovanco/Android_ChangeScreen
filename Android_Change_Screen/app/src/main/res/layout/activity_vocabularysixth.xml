@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".VocabularySixthActivity">
+
+    <Button
+        android:id="@+id/back_sixth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Trở Lại"
+        android:textSize="20dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Một Số Động Từ BQT Thông Dụng"
+        android:textSize="20dp"
+        android:textColor="#CC3399"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="catch"
+            android:textSize="30dp"
+            android:textColor="#00CC33"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="caught"
+            android:textSize="30dp"
+            android:textColor="#FF0066"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="caught"
+            android:textSize="30dp"
+            android:textColor="#005500"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="bắt"
+            android:textSize="30dp"
+            android:textColor="#000088"
+            />
+    </LinearLayout>
+
+</LinearLayout>

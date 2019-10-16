@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btn_word1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fight"
+        android:textSize="30dp"
+        android:textColor="#FF00FF"/>
+
+    <Button
+        android:id="@+id/btn_word2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="teach"
+        android:textSize="30dp"
+        android:textColor="#00FF00"
+        />
+
+    <Button
+        android:id="@+id/btn_word3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="think"
+        android:textSize="30dp"
+        android:textColor="#0000FF"
+        />
+
+    <Button
+        android:id="@+id/btn_word4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="bring"
+        android:textSize="30dp"
+        android:textColor="#800000"
+        />
+
+    <Button
+        android:id="@+id/btn_word5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="buy"
+        android:textSize="30dp"
+        android:textColor="#800080"
+        />
+
+    <Button
+        android:id="@+id/btn_word6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="catch"
+        android:textSize="30dp"
+        android:textColor="#008080"
+        />
+
+</LinearLayout>
